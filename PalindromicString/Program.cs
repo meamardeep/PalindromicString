@@ -12,8 +12,7 @@ namespace PalindromicString
 
             //Check Palindome using in-built Array.Reverse() method
             Palindrome.PalindromeWithInBuiltFunction(userString);
-
-            //Palindrome.PalindromeWithoutInBuiltFunction(userString);
+//Palindrome.PalindromeWithoutInBuiltFunction(userString);
             Console.ReadLine();
         }
     }
