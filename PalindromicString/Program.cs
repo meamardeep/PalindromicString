@@ -14,6 +14,7 @@ namespace PalindromicString
             Palindrome.PalindromeWithInBuiltFunction(userString);
 //Palindrome.PalindromeWithoutInBuiltFunction(userString);
             Console.ReadLine();
+            //
         }
     }
 }
