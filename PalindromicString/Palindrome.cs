@@ -10,7 +10,7 @@ namespace PalindromicString
         {            
             char[] userCharArray = userString.ToCharArray();
 
-            Array.Reverse(userCharArray);
+            Array.Reverse(userCharArray); // reverse string will be assigned to userCharArray[]
 
             StringBuilder sb = new StringBuilder();
             foreach (var item in userCharArray)
@@ -26,8 +26,19 @@ namespace PalindromicString
 
         public static void PalindromeWithoutInBuiltFunction(string userString)
         {
+            int length = userString.Length - 1;
+            string reverseString = "";
+            while(length >= 0 )
+            {
+                reverseString = reverseString + userString[length];
+                length =  length - 1;
+            }
 
-
+            if (reverseString == userString)
+                Console.WriteLine("Given string is palindrome");
+            else
+                Console.WriteLine("Given string is not palindrome");
+          
         }
     }
 }
