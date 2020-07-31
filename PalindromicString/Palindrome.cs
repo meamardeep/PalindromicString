@@ -37,8 +37,10 @@ namespace PalindromicString
             if (reverseString == userString)
                 Console.WriteLine("Given string is palindrome");
             else
-                Console.WriteLine("Given string is not palindrome");
-          
+                Console.WriteLine("Given string is not palindrome");         
         }
+
+
+
     }
 }
